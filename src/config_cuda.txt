@@ -1,0 +1,6 @@
+#https://www.linode.com/docs/guides/getting-started-with-gpu/
+
+sudo apt-get install -y pciutils
+sudo apt-get install build-essential
+wget https://developer.download.nvidia.com/compute/cuda/11.2.0/local_installers/cuda_11.2.0_460.27.04_linux.run
+sudo sh cuda_11.2.0_460.27.04_linux.run

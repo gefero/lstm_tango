@@ -55,8 +55,8 @@ model = keras.Sequential()
 
 model.add(layers.LSTM(128, input_shape=(maxlen, len(chars)), return_sequences=True))
 model.add(layers.Dropout(0.5))
-model.add(layers.LSTM(128))
-model.add(layers.Dropout(0.5))
+#model.add(layers.LSTM(128))
+#model.add(layers.Dropout(0.5))
 model.add(layers.Dense(len(chars), activation='softmax'))
 
 
@@ -111,7 +111,7 @@ def on_epoch_end(epoch, _):
 print_callback = LambdaCallback(on_epoch_end=on_epoch_end)
 
 
-checkpoint_path = "./checkpoints/lstm_layers2_batch64.{epoch:02d}.hdf5"
+checkpoint_path = "./checkpoints/lstm_layers1_batch128.{epoch:02d}.hdf5"
 checkpoint_dir = os.path.dirname(checkpoint_path)
 
 # Create checkpoint callback
@@ -134,12 +134,12 @@ tbCallBack = TensorBoard(log_dir='./log',
 #%%
 
 model.fit(x, y,
-          batch_size=64,
-          epochs=50,
+          batch_size=128,
+          epochs=70,
           callbacks=[cp_callback, tbCallBack, print_callback])
 
 #%%
 
 print('Saving full model...')
-model.save('models/lstm_2_64_M')
+model.save('models/lstm_1_128_M')
 print('Done')

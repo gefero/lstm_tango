@@ -54,7 +54,7 @@ print('Build model...')
 model = keras.Sequential()
 
 model.add(layers.LSTM(128, input_shape=(maxlen, len(chars)), return_sequences=True))
-model.add(layers.Dropout(0.5))
+#model.add(layers.Dropout(0.5))
 #model.add(layers.LSTM(128))
 #model.add(layers.Dropout(0.5))
 model.add(layers.Dense(len(chars), activation='softmax'))

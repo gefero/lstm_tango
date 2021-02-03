@@ -1,0 +1,120 @@
+2021-02-03 00:16:33.868690: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-02-03 00:16:34.857185: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-02-03 00:16:34.858229: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:00:02.0 name: Quadro RTX 6000 computeCapability: 7.5
+coreClock: 1.77GHz coreCount: 72 deviceMemorySize: 23.65GiB deviceMemoryBandwidth: 625.94GiB/s
+2021-02-03 00:16:34.861011: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2021-02-03 00:16:34.904555: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2021-02-03 00:16:34.933797: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2021-02-03 00:16:34.940249: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2021-02-03 00:16:34.986489: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2021-02-03 00:16:34.994442: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2021-02-03 00:16:35.078565: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-02-03 00:16:35.078912: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-02-03 00:16:35.080091: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-02-03 00:16:35.081029: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2021-02-03 00:16:35.081885: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2021-02-03 00:16:35.101959: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2399995000 Hz
+2021-02-03 00:16:35.103028: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55b763c0e960 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-02-03 00:16:35.103064: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-02-03 00:16:35.104525: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-02-03 00:16:35.105514: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:00:02.0 name: Quadro RTX 6000 computeCapability: 7.5
+coreClock: 1.77GHz coreCount: 72 deviceMemorySize: 23.65GiB deviceMemoryBandwidth: 625.94GiB/s
+2021-02-03 00:16:35.105589: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2021-02-03 00:16:35.105604: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2021-02-03 00:16:35.105617: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2021-02-03 00:16:35.105630: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2021-02-03 00:16:35.105643: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2021-02-03 00:16:35.105656: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2021-02-03 00:16:35.105695: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-02-03 00:16:35.105776: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-02-03 00:16:35.106709: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-02-03 00:16:35.107586: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2021-02-03 00:16:35.108332: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2021-02-03 00:16:35.243339: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-02-03 00:16:35.243401: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      0 
+2021-02-03 00:16:35.243416: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1121] 0:   N 
+2021-02-03 00:16:35.243741: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-02-03 00:16:35.244823: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-02-03 00:16:35.245776: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-02-03 00:16:35.246718: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1247] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 22612 MB memory) -> physical GPU (device: 0, name: Quadro RTX 6000, pci bus id: 0000:00:02.0, compute capability: 7.5)
+2021-02-03 00:16:35.253495: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55b766bb4e80 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2021-02-03 00:16:35.253539: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Quadro RTX 6000, Compute Capability 7.5
+WARNING:tensorflow:`write_grads` will be ignored in TensorFlow 2.0 for the `TensorBoard` Callback.
+WARNING:tensorflow:`batch_size` is no longer needed in the `TensorBoard` Callback and will be ignored in TensorFlow 2.0.
+2021-02-03 00:16:37.894484: I tensorflow/core/profiler/lib/profiler_session.cc:159] Profiler session started.
+2021-02-03 00:16:37.896362: I tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1363] Profiler found 1 GPUs
+2021-02-03 00:16:37.906818: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcupti.so.10.1
+2021-02-03 00:16:38.193605: I tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1479] CUPTI activity buffer flushed
+Corpus length: 5433188
+Total chars: 39
+Number of sequences: 1811050
+Build model...
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 40, 128)           86016     
+_________________________________________________________________
+dropout (Dropout)            (None, 40, 128)           0         
+_________________________________________________________________
+dense (Dense)                (None, 40, 39)            5031      
+=================================================================
+Total params: 91,047
+Trainable params: 91,047
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/70
+Traceback (most recent call last):
+  File "./src/train_lstm.py", line 136, in <module>
+    model.fit(x, y,
+  File "/root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/keras/engine/training.py", line 66, in _method_wrapper
+    return method(self, *args, **kwargs)
+  File "/root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/keras/engine/training.py", line 848, in fit
+    tmp_logs = train_function(iterator)
+  File "/root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py", line 580, in __call__
+    result = self._call(*args, **kwds)
+  File "/root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py", line 627, in _call
+    self._initialize(args, kwds, add_initializers_to=initializers)
+  File "/root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py", line 505, in _initialize
+    self._stateful_fn._get_concrete_function_internal_garbage_collected(  # pylint: disable=protected-access
+  File "/root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 2446, in _get_concrete_function_internal_garbage_collected
+    graph_function, _, _ = self._maybe_define_function(args, kwargs)
+  File "/root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 2777, in _maybe_define_function
+    graph_function = self._create_graph_function(args, kwargs)
+  File "/root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 2657, in _create_graph_function
+    func_graph_module.func_graph_from_py_func(
+  File "/root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/framework/func_graph.py", line 981, in func_graph_from_py_func
+    func_outputs = python_func(*func_args, **func_kwargs)
+  File "/root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py", line 441, in wrapped_fn
+    return weak_wrapped_fn().__wrapped__(*args, **kwds)
+  File "/root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/framework/func_graph.py", line 968, in wrapper
+    raise e.ag_error_metadata.to_exception(e)
+ValueError: in user code:
+
+    /root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/keras/engine/training.py:571 train_function  *
+        outputs = self.distribute_strategy.run(
+    /root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/distribute/distribute_lib.py:951 run  **
+        return self._extended.call_for_each_replica(fn, args=args, kwargs=kwargs)
+    /root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/distribute/distribute_lib.py:2290 call_for_each_replica
+        return self._call_for_each_replica(fn, args, kwargs)
+    /root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/distribute/distribute_lib.py:2649 _call_for_each_replica
+        return fn(*args, **kwargs)
+    /root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/keras/engine/training.py:532 train_step  **
+        loss = self.compiled_loss(
+    /root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/keras/engine/compile_utils.py:205 __call__
+        loss_value = loss_obj(y_t, y_p, sample_weight=sw)
+    /root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/keras/losses.py:143 __call__
+        losses = self.call(y_true, y_pred)
+    /root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/keras/losses.py:246 call
+        return self.fn(y_true, y_pred, **self._fn_kwargs)
+    /root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/keras/losses.py:1527 categorical_crossentropy
+        return K.categorical_crossentropy(y_true, y_pred, from_logits=from_logits)
+    /root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/keras/backend.py:4561 categorical_crossentropy
+        target.shape.assert_is_compatible_with(output.shape)
+    /root/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/framework/tensor_shape.py:1117 assert_is_compatible_with
+        raise ValueError("Shapes %s and %s are incompatible" % (self, other))
+
+    ValueError: Shapes (None, 39) and (None, 40, 39) are incompatible
+
